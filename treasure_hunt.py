@@ -28,7 +28,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 print("You're at a cross road. Where do you want to go?")
-# asks the user for the input
+# asks the user for the direction
 direction = input("     Type \"left\" or \"right\"")
 
 # if user types left then game continues else prints wrong direction and Game over. There is lower function in python which converts every character of string into lower case. It is good to convert the input into lower case so that in case user inputs into uppercase or title case then too then game continues rather then showing game over to the user
